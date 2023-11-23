@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.lost-home {
+  height: 120vh;
+  background: linear-gradient(180deg, #b32e68 -139.7%, #d9d9d9 143.41%);
+}
+
+h1 {
+  color: white;
+}
+
+.lost-form {
+  display: flex;
+  gap: 50px;
+  padding: 67px 43px 0 43px;
+  align-items: center;
+}
+
+form {
+  display: grid;
+  gap: 33px;
+}
+
+input,
+select,
+textarea {
+  height: 48px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 2px solid #6b3474;
+  padding: 10px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: #d0aad6;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.lh-button {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.lh-button:hover {
+  background-color: #6b3474;
+  color: #fff;
+}
+
+.lost-message {
+  color: white;
+  padding: 5px;
+  width: 700px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.home-link:hover {
+  color: #d0aad6;
+}

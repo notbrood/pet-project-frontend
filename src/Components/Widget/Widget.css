@@ -1,0 +1,79 @@
+.widget {
+  flex-shrink: 0;
+  border-radius: 94px 92px 254.5px 10px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  background: linear-gradient(
+      233deg,
+      rgba(145, 122, 142, 0.37) 17.74%,
+      rgba(192, 3, 173, 0) 134.57%
+    ),
+    #d9d9d9;
+  mix-blend-mode: hard-light;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-left: 165px;
+}
+.dog-hero{
+    margin-left:726px;
+    margin-top: -434px;
+}
+.p1 {
+  color: #2f1212;
+  font-family: Jost;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.p2 {
+  color: #000;
+  font-family: Magra;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.p3 {
+  color: #000;
+  font-family: Jost;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.found-btton {
+    text-decoration: none;
+    padding: 10px 30px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #8c5d94;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.found-btton:hover{
+    color:#d0aad6 ;
+}
+.lost-btton {
+  padding: 10px 30px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #d0aad6;
+  color: #6b3474;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+.lost-btton:hover{
+    color: #fff;
+}
+section{
+    display: flex;
+    gap: 10px;
+}

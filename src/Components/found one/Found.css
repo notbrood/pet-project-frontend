@@ -1,0 +1,53 @@
+.found-home {
+  height: 100vh;
+  background: linear-gradient(180deg, #b32e68 -139.7%, #d9d9d9 143.41%);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(240px, 1fr));
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  padding: 2rem;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    233deg,
+    rgba(145, 122, 142, 0.5) 20%,
+    rgba(192, 3, 173, 0) 120%
+  );
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pet-date {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.pet-description {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.pet-city {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+/* Add any other styles as needed */

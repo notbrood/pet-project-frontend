@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.lg-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #b32e68 -139.7%, #d9d9d9 143.41%);
+  height: 100vh;
+}
+
+.login-form-container {
+  max-width: 400px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    233deg,
+    rgba(145, 122, 142, 0.5) 20%,
+    rgba(192, 3, 173, 0) 120%
+  );
+  color: #fff; /* Set text color to white */
+}
+
+.lg-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* Set label text color to white */
+}
+
+input[type="email"],
+input[type="password"] {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 15px; /* Increase margin for better separation */
+}
+
+.button-lg {
+  background: #d0aad6;
+  color: #6b3474;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; /* Align button next to the input fields */
+}
+
+.button-lg:hover {
+  background-color: #6b3474;
+  color: white;
+}
