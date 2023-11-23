@@ -13,7 +13,7 @@ const SignupForm = () => {
   const handleSignup = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/register", { name, email, password })
+      .post("http://pet-rescue-project.onrender.com/register", { name, email, password })
       .then((result) => {
         console.log(result);
         navigate("/login");

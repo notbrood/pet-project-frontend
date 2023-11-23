@@ -9,11 +9,12 @@ const Found = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3001/pets');
+        const response = await fetch('http://pet-rescue-project.onrender.com/pets', {mode: 'no-cors'});
+        console.log(response);
         const data = await response.json();
         setPets(data);
       } catch (error) {
-        console.error(error);
+        console.log(error);
       }
     };
 
