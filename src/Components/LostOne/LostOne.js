@@ -704,7 +704,7 @@ const LostOne = () => {
     }
     else {
       axios
-        .post("http://pet-rescue-project.onrender.com/lost", { petname, date, desc, city })
+        .post("https://pet-rescue-project.onrender.com/lost", { petname, date, desc, city })
         .then((result) => {
           console.log(result);
         })

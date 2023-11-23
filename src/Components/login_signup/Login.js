@@ -11,7 +11,7 @@ const LoginForm = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     axios
-      .post("http://pet-rescue-project.onrender.com/login", { email, password })
+      .post("https://pet-rescue-project.onrender.com/login", { email, password })
       .then((result) => {
         console.log(result);
         if (result.data["success"] == true) {
