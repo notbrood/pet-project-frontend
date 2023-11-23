@@ -13,7 +13,7 @@ const LostOne = () => {
       <div className="lost-form">
         <div className="lost-message">Please provide accurate information in the form below. If someone spots your pet, they'll reach out via email with additional details.</div>
         {/* <h1>Lost Pet Form</h1> */}
-        <form >
+        <div className = "form" >
           <input type="name" placeholder="Pet name*" id="petname" />
           <input type="date" id="lostdate" name="lostdate" />
           <textarea
@@ -683,7 +683,7 @@ const LostOne = () => {
             <option value="Zunheboto">Zunheboto</option>{" "}
           </select>
           <input type="submit" onClick={foo} />
-        </form>
+          </div>
       </div>
     </div>
   );
@@ -709,7 +709,9 @@ const LostOne = () => {
           console.log(result);
         })
         .catch((err) => console.log(err));
-    };
+        alert("uploaded info!");
+        window.location.href = "https://pet-rescue-project.netlify.app";
+      };
   }
 };
 

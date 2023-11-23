@@ -9,7 +9,7 @@ const Found = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://pet-rescue-project.onrender.com/pets', {mode: 'no-cors'});
+        const response = await fetch('https://pet-rescue-project.onrender.com/pets');
         console.log(response);
         const data = await response.json();
         setPets(data);
